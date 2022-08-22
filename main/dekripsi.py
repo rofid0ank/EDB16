@@ -27,6 +27,6 @@ with open(file, "rb") as file_enkripsi:
 with open(nama_file_asli, "wb") as file_dekripsi:
     file_dekripsi.write(dekripsi_file(isi_file_enkripsi))
     file_dekripsi.close()
-    os.system(f"del {file}")
+    os.system(f"rm {file}")
     print("file berhasil didekrisi\n")
     exit()
