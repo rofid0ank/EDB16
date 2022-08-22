@@ -27,7 +27,7 @@ with open(file, "rb") as file_asli:
 with open(extensions_encrypt, "wb") as file_enkripsi:
     file_enkripsi.write(enkripsi_file(isi_file))
     file_enkripsi.close()
-    os.system(f"del {file}")
+    os.system(f"rm {file}")
     print("file berhasil dienkripsi\n")
     exit()
 
