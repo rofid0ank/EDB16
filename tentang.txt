@@ -1,0 +1,4 @@
+program     : enkripsi dan dekripsi file
+basaha      : python3
+dibuat oleh : rofi
+dibuat pada : 22 agustus 2022
